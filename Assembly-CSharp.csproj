@@ -6,7 +6,7 @@
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
 	<RootNamespace></RootNamespace>
-	<ProjectGuid>{817A3F30-04BB-8607-3A06-D175235DD5E0}</ProjectGuid>
+	<ProjectGuid>{A2BDBA44-877C-8555-827B-DAA31A0ED0E0}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-CSharp</AssemblyName>
@@ -45,11 +45,31 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ARToolKit5-Unity\Scripts\ARCamera.cs" />
+     <Compile Include="Assets\ARToolKit5-Unity\Scripts\ARController.cs" />
+     <Compile Include="Assets\ARToolKit5-Unity\Scripts\ARMarker.cs" />
+     <Compile Include="Assets\ARToolKit5-Unity\Scripts\ARNativePlugin.cs" />
+     <Compile Include="Assets\ARToolKit5-Unity\Scripts\ARNativePluginStatic.cs" />
+     <Compile Include="Assets\ARToolKit5-Unity\Scripts\AROrigin.cs" />
+     <Compile Include="Assets\ARToolKit5-Unity\Scripts\ARPattern.cs" />
+     <Compile Include="Assets\ARToolKit5-Unity\Scripts\ARTrackedCamera.cs" />
+     <Compile Include="Assets\ARToolKit5-Unity\Scripts\ARTrackedObject.cs" />
+     <Compile Include="Assets\ARToolKit5-Unity\Scripts\ARTransitionalCamera.cs" />
+     <Compile Include="Assets\ARToolKit5-Unity\Scripts\ARUtilityFunctions.cs" />
+     <Compile Include="Assets\ARToolKit5-Unity\Scripts\PluginFunctions.cs" />
      <Compile Include="Assets\Scripts\Bullet.cs" />
      <Compile Include="Assets\Scripts\FP_Shooting.cs" />
      <Compile Include="Assets\Scripts\FirstPersonController.cs" />
      <Compile Include="Assets\Scripts\bear.cs" />
      <Compile Include="Assets\Scripts\hit.cs" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.kanji.txt" />
+     <None Include="Assets\Plugins\Android\res\values\strings.xml" />
+     <None Include="Assets\ARToolKit5-Unity\Resources\VideoPlaneNoLight.shader" />
+     <None Include="Assets\ARToolKit5-Unity\Materials\Mask.shader" />
+     <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.hiro.txt" />
+     <None Include="Assets\ARToolKit5-Unity\CHANGELOG.txt" />
+     <None Include="Assets\Plugins\Android\res\xml\preferences.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
