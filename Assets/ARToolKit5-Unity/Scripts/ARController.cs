@@ -1280,7 +1280,7 @@ public class ARController : MonoBehaviour
 				"    }"+
 				"  }"+
 				"} ";
-        vbm = new Material(Shader.Find("VideoPlaneNoLight"));
+		vbm = new Material( Shader.Find( "VideoPlaneNoLight" ) ); //ARToolKit5-Unity.Properties.Resources.VideoPlaneShader;
 		vbm.shader.hideFlags = HideFlags.HideAndDontSave;
 		vbm.hideFlags = HideFlags.HideAndDontSave;
 		vbm.mainTexture = vbt;
