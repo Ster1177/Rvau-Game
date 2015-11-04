@@ -13,7 +13,7 @@ public class hit : MonoBehaviour {
 			//Destroy (other.gameObject);
 			//if(other.gameObject.transform.Rotate.z >= 0) 
 				//other.gameObject.transform.Rotate(0,0,30);
-.			transform.GetComponentInChildren<Animator>().SetTrigger("die");
+			transform.GetComponentInChildren<Animator>().SetTrigger("die");
 			/*bearBody = other.gameObject.GetComponent<Rigidbody>();
 			 
 			bearBody.AddForce(this.GetComponent<Rigidbody>().velocity.normalized*thrust, ForceMode.Impulse);*/

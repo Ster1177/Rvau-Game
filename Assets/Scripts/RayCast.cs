@@ -10,7 +10,7 @@ public class RayCast : MonoBehaviour {
 			Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 			if (Physics.Raycast(ray, out hit)) {
 				Debug.Log("Disparou");
-			    Debug.Log(hit.);
+			    Debug.Log(hit);
 
 				Instantiate(particle, hit.point, transform.rotation);
 			}
