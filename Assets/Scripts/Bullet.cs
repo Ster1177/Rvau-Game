@@ -23,9 +23,10 @@ public class Bullet : MonoBehaviour {
 	void OnCollisionEnter(Collision collision) {
 		
 		if(collision.gameObject.tag == "Enemy") {
-			collision.gameObject.tag = "Untagged";
+			Debug.Log("Enemy");
+			//collision.gameObject.tag = "Untagged";
 			Instantiate(fireEffect, collision.transform.position, Quaternion.identity);
-			Destroy(gameObject);			
+						
 		}
 	}
 	

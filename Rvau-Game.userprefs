@@ -1,9 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\Public\Documents\Unity Projects\ARTest\Assets\ARToolKit5-Unity\Scripts\ARController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\hit.cs">
     <Files>
-      <File FileName="..\..\..\Public\Documents\Unity Projects\ARTest\Assets\ARToolKit5-Unity\Materials\VideoPlaneNoLight.shader" Line="27" Column="2" />
-      <File FileName="..\..\..\Public\Documents\Unity Projects\ARTest\Assets\ARToolKit5-Unity\Scripts\ARController.cs" Line="1283" Column="60" />
+      <File FileName="Assets\Scripts\FirstPersonController.cs" Line="34" Column="1" />
+      <File FileName="Assets\Scripts\FP_Shooting.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Bullet.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\hit.cs" Line="16" Column="2" />
+      <File FileName="Assets\Scripts\RayCast.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\bear.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
