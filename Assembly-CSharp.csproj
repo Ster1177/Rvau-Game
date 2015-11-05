@@ -61,6 +61,7 @@
      <Compile Include="Assets\Scripts\FP_Shooting.cs" />
      <Compile Include="Assets\Scripts\FirstPersonController.cs" />
      <Compile Include="Assets\Scripts\RayCast.cs" />
+     <Compile Include="Assets\Scripts\Walking.cs" />
      <Compile Include="Assets\Scripts\bear.cs" />
      <Compile Include="Assets\Scripts\hit.cs" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
