@@ -62,6 +62,8 @@
      <Compile Include="Assets\Scripts\FirstPersonController.cs" />
      <Compile Include="Assets\Scripts\RayCast.cs" />
      <Compile Include="Assets\Scripts\Walking.cs" />
+     <Compile Include="Assets\Scripts\Wander.cs" />
+     <Compile Include="Assets\Scripts\Wander2.cs" />
      <Compile Include="Assets\Scripts\bear.cs" />
      <Compile Include="Assets\Scripts\hit.cs" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
@@ -72,17 +74,11 @@
      <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.hiro.txt" />
      <None Include="Assets\ARToolKit5-Unity\CHANGELOG.txt" />
      <None Include="Assets\Plugins\Android\res\xml\preferences.xml" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
