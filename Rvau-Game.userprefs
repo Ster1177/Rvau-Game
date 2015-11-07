@@ -1,10 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\hit.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Wander2.cs">
     <Files>
-      <File FileName="Assets\Scripts\Bullet.cs" Line="27" Column="6" />
-      <File FileName="Assets\Scripts\hit.cs" Line="18" Column="39" />
-      <File FileName="Assets\Scripts\RayCast.cs" Line="15" Column="25" />
+      <File FileName="Assets\Scripts\Wander2.cs" Line="12" Column="35" />
+      <File FileName="Assets\Scripts\hit.cs" Line="17" Column="47" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

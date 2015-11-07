@@ -9,7 +9,7 @@ public class Wander2 : MonoBehaviour
 {
 	public float speed = 5;
 	public float directionChangeInterval = 1;
-	public float maxHeadingChange = 30;
+	public float maxHeadingChange = 3;
 	
 	CharacterController controller;
 	float heading;
@@ -40,6 +40,7 @@ public class Wander2 : MonoBehaviour
 	void OnControllerColliderHit (ControllerColliderHit hit)
 	{
 		if (hit.gameObject.tag != "Boundary") {
+			Debug.Log("Morri na areia");
 			return;
 		}
 		
@@ -55,6 +56,7 @@ public class Wander2 : MonoBehaviour
 	/// </summary>
 	void NewHeading ()
 	{
+		Debug.Log ("NewHeading");
 		var floor = Mathf.Clamp(heading - maxHeadingChange, 0, 360);
 		var ceil  = Mathf.Clamp(heading + maxHeadingChange, 0, 360);
 		heading = Random.Range(floor, ceil);
