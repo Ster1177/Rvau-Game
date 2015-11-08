@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Wander2.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\WanderWaypoint.js">
     <Files>
-      <File FileName="Assets\Scripts\Wander2.cs" Line="12" Column="35" />
-      <File FileName="Assets\Scripts\hit.cs" Line="17" Column="47" />
+      <File FileName="..\Feup\RVAU\Zombie Run over\Assets\ZombieCC.js" Line="44" Column="12" />
+      <File FileName="Assets\Scripts\WanderWaypoint.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

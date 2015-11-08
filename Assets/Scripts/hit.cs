@@ -13,8 +13,8 @@ public class hit : MonoBehaviour {
 			//Destroy (other.gameObject);
 			//if(other.gameObject.transform.Rotate.z >= 0) 
 				//other.gameObject.transform.Rotate(0,0,30);
-		Debug.Log ("Matei: " + other.gameObject.name);
-		Debug.Log ("Eu sou um: " + gameObject.name);
+	//	Debug.Log ("Matei: " + other.gameObject.name);
+	//	Debug.Log ("Eu sou um: " + gameObject.name);
 		if (other.gameObject.name == "Bullet") {
 		//	Debug.Log("Morre Diabo");
 			transform.GetComponentInChildren<Animator>().SetTrigger ("die");
