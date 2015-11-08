@@ -63,7 +63,6 @@
      <Compile Include="Assets\Scripts\RayCast.cs" />
      <Compile Include="Assets\Scripts\Walking.cs" />
      <Compile Include="Assets\Scripts\Wander2.cs" />
-     <Compile Include="Assets\Scripts\bear.cs" />
      <Compile Include="Assets\Scripts\hit.cs" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.kanji.txt" />

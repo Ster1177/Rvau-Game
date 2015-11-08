@@ -1,7 +1,7 @@
 ﻿#pragma strict
 
 var waypoint : Transform[];
-private var speed : float = 0.05;
+var speed : float = 0.05;
 //var hud : HUD;
 private var currentWaypoint : int = 0;
 var loop : boolean = true;
@@ -43,6 +43,7 @@ private var lastPos : Vector3;
 	     {
 	         var target : Vector3 = waypoint[currentWaypoint].position;
 	         target.y = transform.position.y; // keep waypoint at character's height
+	         target.z = 0.0f;
 	         var moveDirection : Vector3 = target - transform.position;
 	         if(moveDirection.magnitude < 0.001)
 	         {
