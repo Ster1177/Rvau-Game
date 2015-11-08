@@ -5,6 +5,7 @@ public class hit : MonoBehaviour {
 
 	//public GameObject bearBody;
 	public float thrust = 5;
+	public  float dieTime = 1.2f;
 
 	void OnTriggerEnter(Collider other) {
 	//	Debug.Log ("ACERTOU URSO");
@@ -18,6 +19,7 @@ public class hit : MonoBehaviour {
 		if (other.gameObject.name == "Bullet") {
 		//	Debug.Log("Morre Diabo");
 			transform.GetComponentInChildren<Animator>().SetTrigger ("die");
+			Destroy(gameObject,dieTime);
 		}
 			/*bearBody = other.gameObject.GetComponent<Rigidbody>();
 			 
