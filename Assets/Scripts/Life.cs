@@ -7,6 +7,8 @@ public class Life : MonoBehaviour {
 	public int hitpoints = 10;
 	public GameObject hitpointsScreen;
 	private Text txt;
+	public float dieTime = 1f;
+	private GameObject enemy;
 
 	// Use this for initialization
 	void Start () {
@@ -22,6 +24,8 @@ public class Life : MonoBehaviour {
 	void OnTriggerEnter(Collider other) {
 		if (other.tag == "Enemy") {
 			hitpoints--;
+
+			Destroy (enemy, dieTime);
 		}
 	}
 }
