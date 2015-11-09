@@ -1,69 +1,66 @@
 fileFormatVersion: 2
-guid: c22afe006bf72844ebadce2218263054
-timeCreated: 1446999147
+guid: b7435c5869334e74e89ea29290cbc9db
+timeCreated: 1447078819
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Icosphere
-    100004: Icosphere_001
-    100006: Icosphere_002
-    100008: Icosphere_003
-    100010: Icosphere_004
-    100012: Icosphere_005
-    100014: Icosphere_006
-    100016: short_grass_9091044_COLOR
-    100018: Plane
-    400000: //RootNode
-    400002: Icosphere
-    400004: Icosphere_001
-    400006: Icosphere_002
-    400008: Icosphere_003
-    400010: Icosphere_004
-    400012: Icosphere_005
-    400014: Icosphere_006
-    400016: short_grass_9091044_COLOR
-    400018: Plane
-    2300000: //RootNode
-    2300002: Icosphere
-    2300004: Icosphere_001
-    2300006: Icosphere_002
-    2300008: Icosphere_003
-    2300010: Icosphere_004
-    2300012: Icosphere_005
-    2300014: Icosphere_006
-    2300016: short_grass_9091044_COLOR
-    2300018: Plane
-    3300000: //RootNode
-    3300002: Icosphere
-    3300004: Icosphere_001
-    3300006: Icosphere_002
-    3300008: Icosphere_003
-    3300010: Icosphere_004
-    3300012: Icosphere_005
-    3300014: Icosphere_006
-    3300016: short_grass_9091044_COLOR
-    3300018: Plane
-    4300000: short_grass_9091044_COLOR
-    4300002: Icosphere_006
-    4300004: Icosphere_005
-    4300006: Icosphere_004
-    4300008: Icosphere_003
-    4300010: Icosphere_002
-    4300012: Icosphere_001
+    100000: Camera
+    100002: //RootNode
+    100004: Icosphere
+    100006: Icosphere.001
+    100008: Icosphere.002
+    100010: Icosphere.003
+    100012: Icosphere.004
+    100014: Icosphere.005
+    100016: Icosphere.006
+    100018: Lamp
+    100020: Plane
+    100022: Sun
+    400000: Camera
+    400002: //RootNode
+    400004: Icosphere
+    400006: Icosphere.001
+    400008: Icosphere.002
+    400010: Icosphere.003
+    400012: Icosphere.004
+    400014: Icosphere.005
+    400016: Icosphere.006
+    400018: Lamp
+    400020: Plane
+    400022: Sun
+    2300000: Icosphere
+    2300002: Icosphere.001
+    2300004: Icosphere.002
+    2300006: Icosphere.003
+    2300008: Icosphere.004
+    2300010: Icosphere.005
+    2300012: Icosphere.006
+    2300014: Plane
+    3300000: Icosphere
+    3300002: Icosphere.001
+    3300004: Icosphere.002
+    3300006: Icosphere.003
+    3300008: Icosphere.004
+    3300010: Icosphere.005
+    3300012: Icosphere.006
+    3300014: Plane
+    4300000: Plane
+    4300002: Icosphere.006
+    4300004: Icosphere.005
+    4300006: Icosphere.004
+    4300008: Icosphere.003
+    4300010: Icosphere.002
+    4300012: Icosphere.001
     4300014: Icosphere
-    4300016: Plane
     6400000: Icosphere
-    6400002: Icosphere_001
-    6400004: Icosphere_002
-    6400006: Icosphere_003
-    6400008: Icosphere_004
-    6400010: Icosphere_005
-    6400012: Icosphere_006
+    6400002: Icosphere.001
+    6400004: Icosphere.002
+    6400006: Icosphere.003
+    6400008: Icosphere.004
+    6400010: Icosphere.005
+    6400012: Icosphere.006
     6400014: Plane
-    7400000: Default Take
-    9500000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
@@ -122,7 +119,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

@@ -6,7 +6,7 @@
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
 	<RootNamespace></RootNamespace>
-	<ProjectGuid>{ABD51554-BA41-1B9E-D3C7-CABE00D67B16}</ProjectGuid>
+	<ProjectGuid>{DCB9B87A-6635-49E9-1DDC-0969E83B45D4}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -64,9 +64,6 @@
      <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.hiro.txt" />
      <None Include="Assets\ARToolKit5-Unity\CHANGELOG.txt" />
      <None Include="Assets\Plugins\Android\res\xml\preferences.xml" />
- <Reference Include="Assembly-UnityScript">
- <HintPath>C:/Users/Paulo Silva/Desktop/Rvau-Game/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -124,7 +121,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{A2BDBA44-877C-8555-827B-DAA31A0ED0E0}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{D7F0FA1B-408B-3D6C-5B34-EDF45CC2444B}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript.unityproj">
+      <Project>{5144D331-D6C5-DB3A-8E97-EA785BDB66D7}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
