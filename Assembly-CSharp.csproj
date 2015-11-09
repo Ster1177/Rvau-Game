@@ -60,11 +60,12 @@
      <Compile Include="Assets\Scripts\Bullet.cs" />
      <Compile Include="Assets\Scripts\FP_Shooting.cs" />
      <Compile Include="Assets\Scripts\FirstPersonController.cs" />
+     <Compile Include="Assets\Scripts\Life.cs" />
      <Compile Include="Assets\Scripts\RayCast.cs" />
+     <Compile Include="Assets\Scripts\Spawner.cs" />
      <Compile Include="Assets\Scripts\Walking.cs" />
      <Compile Include="Assets\Scripts\Wander2.cs" />
      <Compile Include="Assets\Scripts\hit.cs" />
-     <Compile Include="Assets\Spawner.cs" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\ARToolKit5-Unity\Resources\ardata\markers\patt.kanji.txt" />
      <None Include="Assets\Plugins\Android\res\values\strings.xml" />

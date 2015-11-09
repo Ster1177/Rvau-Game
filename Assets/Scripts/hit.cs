@@ -22,7 +22,7 @@ public class hit : MonoBehaviour {
 	//	Debug.Log ("Eu sou um: " + gameObject.name);
 		if (other.gameObject.name == "Bullet") {
 		//	Debug.Log("Morre Diabo");
-			score+= 5;
+			score = score + 5;
 			txt = scoreBoard.GetComponent<Text>();
 			txt.text = score.ToString();
 

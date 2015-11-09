@@ -12,6 +12,7 @@ public class Spawner : MonoBehaviour
 	{
 		// Call the Spawn function after a delay of the spawnTime and then continue to call after the same amount of time.
 		InvokeRepeating ("Spawn", spawnTime, spawnTime);
+
 	}
 	
 	
@@ -26,8 +27,13 @@ public class Spawner : MonoBehaviour
 		
 		// Find a random index between zero and one less than the number of spawn points.
 		int spawnPointIndex = Random.Range (0, spawnPoints.Length);
-		
-		// Create an instance of the enemy prefab at the randomly selected spawn point's position and rotation.
-		Instantiate (enemy, spawnPoints[spawnPointIndex].position, spawnPoints[spawnPointIndex].rotation);
+		if (GameObject.Find("Ursos")) {
+
+
+			// Create an instance of the enemy prefab at the randomly selected spawn point's position and rotation.
+			GameObject bearRussia = (GameObject)Instantiate (enemy, spawnPoints [spawnPointIndex].position, spawnPoints [spawnPointIndex].rotation);
+
+			bearRussia.transform.parent = GameObject.Find ("Ursos").transform;
+		}
 	}
 }
