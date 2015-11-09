@@ -19,13 +19,17 @@ public class Life : MonoBehaviour {
 	void Update (){
 		txt = hitpointsScreen.GetComponent<Text>();
 		txt.text = hitpoints.ToString();
+
+		if (hitpoints == 0) {
+			Application.LoadLevel ("GameOver");
+		}
 	}
 
 	void OnTriggerEnter(Collider other) {
 		if (other.tag == "Enemy") {
 			hitpoints--;
 
-			Destroy (enemy, dieTime);
+			Destroy (other.gameObject, dieTime);
 		}
 	}
 }
